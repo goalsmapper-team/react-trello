@@ -8,8 +8,8 @@
     "README"
   ],
   "scripts": {
-    "prepublish": "npm run build",
-    "prepare": "npm run build",
+//    "prepublish": "npm run build",
+//    "prepare": "npm run build",
     "storybook": "start-storybook -p 9002",
     "test": "jest",
     "test:watch": "jest --watch",
