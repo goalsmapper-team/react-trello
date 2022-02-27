@@ -1,6 +1,6 @@
 {
   "name": "react-trello",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Pluggable components to add a trello like kanban board to your application",
   "main": "dist/index.js",
   "files": [
@@ -8,6 +8,7 @@
     "README"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "storybook": "start-storybook -p 9002",
     "test": "jest",
     "test:watch": "jest --watch",
